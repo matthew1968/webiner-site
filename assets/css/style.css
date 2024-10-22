@@ -1,0 +1,435 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+#first-ul, #second-ul{
+    display: flex;
+    list-style-type:none;
+}
+
+/* #second-ul{
+    display: flex;
+} */
+ nav a{
+    text-decoration: none;
+ }
+
+ header{
+    margin: 0 70px;
+ }
+
+ nav li{
+    margin: 0 30px;
+ }
+
+ #second-ul li:nth-child(2) {
+    margin-right: 0;
+ }
+
+#hero-section{
+   margin: 60px 60px;
+}
+
+#hero-section>div:nth-child(1){
+   width: 55%;
+   margin: auto;
+}
+
+#hero-section>div:first-child h1, #hero-section>div:first-child p{
+   text-align: center;
+
+}
+
+#hero-section h1{
+   font-size: 40px;
+   font-family: "Lora", serif;
+}
+
+#webinar-image{
+   width: 100%;
+   margin-top: 100px;
+
+}
+
+#hero-section>div:nth-child(3){
+   margin-top: 30px;
+}
+
+#hero-section div:nth-child(3) h1{
+   width: 400px;
+   margin-right: 250px;
+}
+
+#hero-section>div:nth-child(3) {
+   display: flex;
+}
+
+#hero-section>div:nth-child(3) h5{
+   margin-bottom: 20px;
+}
+
+#hero-section>div:nth-child(3) p{
+   margin-bottom: 40px;
+}
+
+#hero-section>div:nth-child(3) a{
+   text-decoration: none;
+   background-color: #1070FF;
+   padding: 20PX 0 20PX 30PX;
+   color: white;
+   border-radius: 5px;
+}
+
+#spearkers-section{
+   margin: 60px 60px;
+}
+
+#spearkers-section>div:nth-child(1){
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   margin-bottom: 20px;
+}
+
+#spearkers-section>div:nth-child(1)>h1{
+   font-size: 40px;
+}
+
+#spearkers-section>div:nth-child(3){
+   display: grid;
+   grid-template-columns: 30% 30% 30%;
+   gap: 5%;
+   margin-top: 40px;
+}
+
+#spearkers-section>div:nth-child(3)>div{
+   height: 500px;
+}
+
+#life-right-nav-div{
+   margin-top: 400px;
+}
+
+#speaker-img-1-div{
+   background-color:#66A3FF ;
+   background-image:url(../image/unsplash_xmSWVeGEnJw.png);
+   display: flex;
+   align-items: end;
+}
+
+#speaker-position-div{
+   display: flex;
+   justify-content: space-between;
+}
+
+#speaker-img-2-div{
+   background-color:#BCD7FF ;
+   background-image:url(../image/unsplash_Zz5LQe-VSMY.png) ;
+   display: flex;
+   align-items: end;
+}
+
+#speaker-position-div{
+   display: flex;
+   justify-content: space-between;
+}
+
+#speaker-details{
+   margin: 30px;
+   width: 100%;
+   color: white;
+}
+
+#event-section{
+   margin: 60px 60px;
+}
+
+#event-section>div:nth-child(1){
+   display: flex;
+   align-items: end;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+#event-section>div :nth-child(1)h1{
+   font-size: 40px;
+}
+
+#event-img-container{
+   display: grid;
+   grid-template-columns: 32% 32% 32%;
+   gap: 2%;
+   margin-top: 40px;
+}
+
+#event-img-container>div{
+   height: 400px;
+}
+
+#event-img-container>div:first-child{
+   background-image: url(../image/unsplash_X1GZqv-F7Tw.png);
+   background-size: cover;
+}
+
+#event-img-container>div:nth-child(2){
+   background-image: url(../image/unsplash_yDSe7sggb9Q.png);
+   background-size: cover;
+}
+
+#event-img-container>div:nth-child(3){
+   background-image:url(../image/unsplash_Kb8_42IFMFk.png);
+   background-size: cover;
+}
+
+#image-details-div{
+   display: flex;
+   align-items: end;
+   color: white;
+
+}
+
+#image-details-div>div{
+   margin: 20px;
+   width: 100%;
+}
+
+#image-details-div>div>div{
+   display: flex;
+   justify-content: space-between;
+}
+
+#learn-more{
+   color: white;
+   text-decoration: none;
+}
+
+#event-nav-container{
+   display: flex;
+   justify-content: end;
+   margin-top: 20px;
+}
+
+footer{
+   background-color: #1070FF;
+  padding: 30px 60px;
+}
+
+footer li{
+   list-style-type: none;
+   color: white;
+   margin-bottom: 30px;
+}
+
+footer>div{
+   display: grid;
+   grid-template-columns: 16% 16% 16% 16% 16%;
+   gap: 5%;
+
+}
+
+#news-letter-section{
+   background-color: #E7F0FF;
+   background-image: url(../image/Group.png);
+   padding: 80px 60px;
+   
+}
+
+#news-letter-section>div{
+   width: fit-content;
+   margin: auto;
+
+}
+
+#news-letter-section>div>h1{
+   font-size: 40px;
+}
+
+#news-letter-section>div>p{
+   margin: 10px 0 20px;
+   text-align: center;
+}
+
+#news-letter-section>div>form{
+   margin: auto;
+   width: fit-content;
+
+}
+
+#email{
+   background-color: white;
+   border: none;
+   height: 40px;
+   width: 300px;
+   padding: 0 15px;
+
+}
+
+#Subscribe{
+   padding: 15px 20px;
+   background-color: #1070FF;
+   border: none;
+   border-radius: 5px;
+   color: white;
+}
+
+/* @media only screen and (max-width: 900px) {
+   header {
+      margin: 0 40px;
+   }
+
+ } */
+
+@media screen and (max-width: 900px) {
+    header {
+        margin: 0 40px;
+    }
+
+    nav li {
+        margin: 0 15px;
+        font-size: 20px;
+    }
+
+    #hero-section {
+        margin: 60px 40px;
+    }
+
+    #hero-section>div:nth-child(1) {
+        width: 80%;
+    }
+    
+    #hero-section>div:first-child p{
+        font-size: 20px;
+    }
+
+    #hero-section div:nth-child(3) h1 {
+        margin-right: 100px;
+    }
+
+    #hero-section div:nth-child(3)>div {
+        font-size: 20px;
+    }
+
+    #view-all-speakers {
+        font-size: 20px;
+    }
+
+    #speakers-section>div:nth-child(3)>div {
+        height: 350px;
+    }
+
+    #Therapist-share {
+        font-size: 20px;
+    }
+
+    #left-right-nav-div {
+        margin-top: 220px;
+    }
+
+    #spearkers-section>div:nth-child(3) {
+        grid-template-columns: 45% 45%;
+        gap: 10%;
+
+    }
+
+    #event-section {
+        margin: 90px 40px 60px;
+    }
+
+    #event-img-container {
+        display: grid;
+        grid-template-columns: 47% 47%;
+        gap: 6%;
+        margin-top: 40px;
+    }
+
+    #View-all-Webinars {
+        font-size: 20px;
+    }
+
+    footer {
+        background-color: #1070FF;
+        padding: 30px 40px;
+    }
+
+    footer>div {
+        grid-template-columns: 15% 14% 22% 20% 8%;
+        gap: 5%;
+    }
+}
+
+
+@media screen and (max-width:450px ) {
+   body{
+      background-color: yellow;
+   }
+   #first-ul{
+      display: none;
+   }
+
+   header{
+      margin: 0 20px;
+   }
+
+   #hero-section {
+      margin: 60px 20px;
+   }
+
+   #hero-section>div:nth-child(3) {
+     flex-direction: column;
+   }
+
+   #hero-section div:nth-child(3) h1{
+      width: 100%;
+      margin-right:0;
+      text-align: center;
+   }
+
+   #hero-section div:nth-child(3) div {
+      text-align: center;
+      margin-top: 20px; 
+   }
+
+   #spearkers-section{
+      margin: 60px 20px;
+   }
+
+   #spearkers-section>div:nth-child(3) {
+      grid-template-columns: 100%;
+  }
+
+  #event-section{
+   margin: 350px 20px 60px;
+}
+
+#event-img-container{
+   grid-template-columns: 100%;
+}
+
+#news-letter-section {
+   background-color: #E7F0FF;
+   background-image: url(../image/Group.png);
+   padding: 80px 20px;
+}
+
+#news-letter-section>div>form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+footer>div{
+   display: grid;
+   grid-template-columns: 36% 30% 30%;
+   gap: 4%;
+
+}
+
+}
